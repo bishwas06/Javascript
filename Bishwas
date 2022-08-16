@@ -1,0 +1,28 @@
+<html>
+    <head></head>
+    <title></title>
+    <body>
+ <script>
+  
+
+var myMarks = prompt("Enter your Marks: ");
+
+if(myMarks>=40 && myMarks<=50){
+document.write("Passed "+" <br> Your Grade is " + " C");
+}else if(myMarks >= 50 && myMarks <= 60){
+document.write("Passed "+" <br> Your Grade is " + " C+");
+}else if(myMarks >= 60 && myMarks <=70){
+document.write("Passed "+" <br> Your Grade is " + " B");
+}else if(myMarks >= 70 && myMarks <= 80){
+document.write("Passed "+" <br> Your Grade is " + " B+");
+}else if(myMarks >= 80 && myMarks <= 90){  
+ document.write("Passed "+" <br> Your Grade is is " + " A");
+}else if(myMarks >= 90 && myMarks <= 100){
+document.write(" Passed "+" <br>Your Grade is " + " A+ "+" <br>Congratulation");
+}else{
+document.write("Failed");
+}
+
+    </script>
+    </body>
+</html>
